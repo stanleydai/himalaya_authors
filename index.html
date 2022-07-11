@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>The human urge to climb our tallest mountains, and the equally human urge to document it for sale</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="section">
+            <div class="container content">
+                <h1 class="title">The human urge to climb our tallest mountains, and the equally human urge to document it for sale</h1>
+                <p>by Stanley Dai</p>
+                <p>
+                    As the default analogy for overcoming obstacles, mountaineering and its practitioners elicit an overwhelming sense of poeticism and respect. I’ve always found that this sentiment was best captured in Sir Mallory’s response when asked why he wanted to climb Mt. Everest in 1929: “Because it is there.” It’s no Everest, but when I reach the peak of any hike, I experience some mixture of exhaustion, satisfaction, and awe, melding together in a sacred moment. Now imagine how it must be for those who reach the tops of the world.
+                </p>
+                <p>
+                    What does not inspire the same grand feelings are books with titles such as, “No Shortcuts to the Top,” and “Mountains In My Heart.” When the world's elite climbers descend from the Himalayas, they immediately get started working on their books, often memoirs. Some are good, others not so much. And how could you ever resist - the metaphor is right there! 
+                </p>
+                <p>
+                    After learning that alpinists are deadly serious about tracking and sharing their data, I wondered - can I link authors of these books to a database of Himalayan expedition records? Who are these prolific novelists, and how well did they do on their climbs?
+                </p>
+                <h3>Data and Methodology</h3>
+                <p>
+                    Unsurprisingly, a sport synonymous with dedication attracts dedicated people - thanks to the late, great journalist Elizabeth Hawley who made mountaineering data publicly available by way of the Himalayan Database. Sourced by meticulously kept historical records and interview notes from over five decades, the database includes data on all Himalayan expeditions and their participants from 1905 to 2021 within Nepal. 
+                </p>
+                <p>
+                    Books and their authors were gathered using the Google Books API. Searching for the terms ‘Himalaya’, ‘climbing’, and ‘autobiography’ returned 445 unique authors. After querying for those authors in the Himalayan Database, we find that, of the authors returned, 104 of them have been on recorded expeditions. Our final dataset consists of these authors and their journeys. Further documentation can be found on my Github. 
+                </p>
+                <div class="plot-holder">
+                    <iframe title="Most of our literary Himalayan mountaineers are from the UK. " aria-label="Map" id="datawrapper-chart-8vGDc" src="https://datawrapper.dwcdn.net/8vGDc/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="445"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+                </div>
+                <p>
+                    Of our 104 published climbers, more than a third hail from the United Kingdom. As the list of books and authors are pulled from an English Google Books search, future analysis could attempt to pull books in from all languages. 
+
+                </p>
+                <p>A mountain analogy is not complete without a reference to a struggle against the odds. From which mountains did our authors draw their inspiration, and how often did they fail to meet the challenge?
+                </p>
+                <div class="plot2-holder">
+                    <p>
+                        <iframe title="While not the hardest to climb for our authors, Mt. Everest is certainly the most popular Himalayan mountain. " aria-label="Scatter Plot" id="datawrapper-chart-0aBz3" src="https://datawrapper.dwcdn.net/0aBz3/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>                  </p>
+                </div>
+                <p></p>
+                
+                <p>
+                    We find that the tallest, most famous mountain on earth is also the one most frequented and fourth most failed by our sample. After all, no reader would take ‘To The Greatest Heights’ seriously if the author had only ever tackled the sixth tallest mountain in the region.  
+                </p>
+                <p>
+                    Summiting these hostile ranges is a true testament to humanity’s wherewithal and constitution. In the end, I’m just glad that our passionate climbers are out there proving it so I don’t have to.    
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
