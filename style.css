@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
-    background: ivory;
+    background: #FFFAFA;
+    font-family: 'Roboto'
 }
 
 .section {
@@ -37,5 +38,13 @@ img {
 
 .content h1 {
     font-size: 3em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content h2{
+    font-family:'Roboto';
+}
+
+h3{
+    font-family:'Roboto';
 }
